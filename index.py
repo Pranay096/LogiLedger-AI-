@@ -430,16 +430,5 @@ def whatsapp_webhook():
 
 if __name__ == '__main__':
     # Make sure to configure SSL if exposing this publicly for WhatsApp Webhooks
-    # For local development, you can use a tool like ngrok to expose your local Flask app
     print("Starting Flask app...")
     app.run(debug=True, port=5000) # Default port 5000, use 0.0.0.0 for host in docker
-
-# Sources:
-# 1. https://github.com/priyanshuone6/whatsapp_cloud
-# 2. https://github.com/BrunoQuagliata1/RecipeGenerator-Back
-# 3. https://github.com/nikmaltcev/testbot
-# 4. https://github.com/madu12/whatsapp-chatbot-webhook
-# 5. https://github.com/LeonardoGino/chatbot-whatsapp
-# 6. https://github.com/bkb56837/Hackathon
-
-git init
