@@ -431,4 +431,8 @@ def whatsapp_webhook():
 if __name__ == '__main__':
     # Make sure to configure SSL if exposing this publicly for WhatsApp Webhooks
     print("Starting Flask app...")
+<<<<<<< HEAD
     app.run(debug=True, port=5000) # Default port 5000, use 0.0.0.0 for host in docker
+=======
+    app.run(debug=True, port=5000) # Default port 5000, use 0.0.0.0 for host in docker
+>>>>>>> 322b1ad (Update index.py)
